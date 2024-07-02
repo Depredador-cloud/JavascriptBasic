@@ -80,7 +80,7 @@ Open In Editor
 
 MIT License
 
-Copyright (c) 2023 [Your Name]
+Copyright (c) 2023 [Depredador-Cloud]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -99,9 +99,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-package.json
 
-
+### package.json
 Verify
 
 Open In Editor
@@ -122,9 +121,9 @@ Open In Editor
     "jest": "^27.5.1"
   }
 }
-src/index.js
 
 
+### src/index.js
 Verify
 
 Open In Editor
@@ -136,11 +135,9 @@ export function add(a, b) {
 export function greet(name) {
   return `Hello, ${name}!`;
 }
-src/utils/math.js
 
-
+### src/utils/math.js
 Verify
-
 Open In Editor
 
 export function add(a, b) {
@@ -150,13 +147,11 @@ export function add(a, b) {
 export function multiply(a, b) {
   return a * b;
 }
-src/utils/string.js
 
 
+### src/utils/string.js
 Verify
-
 Open In Editor
-
 export function uppercase(str) {
   return str.toUpperCase();
 }
@@ -164,13 +159,11 @@ export function uppercase(str) {
 export function lowercase(str) {
   return str.toLowerCase();
 }
-tests/index.test.js
 
 
+### tests/index.test.js
 Verify
-
 Open In Editor
-
 import { add, greet } from '../src/index';
 
 describe('index', () => {
@@ -182,14 +175,11 @@ describe('index', () => {
     expect(greet('John')).toBe('Hello, John!');
   });
 });
-tests/utils/math.test.js
 
 
+### tests/utils/math.test.js
 Verify
-
 Open In Editor
-
-
 import { add, multiply } from '../src/utils/math';
 
 describe('math', () => {
@@ -201,14 +191,11 @@ describe('math', () => {
     expect(multiply(2, 3)).toBe(6);
   });
 });
-tests/utils/string.test.js
 
 
+### tests/utils/string.test.js
 Verify
-
 Open In Editor
-
-
 import { uppercase, lowercase } from '../src/utils/string';
 
 describe('string', () => {
