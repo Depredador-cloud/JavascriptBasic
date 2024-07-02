@@ -6,9 +6,7 @@ Folder Structure:
 
 
 Verify
-
 Open In Editor
-Edit
 
 my-javascript-project/
 README.md
